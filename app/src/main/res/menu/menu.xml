@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:id="@+id/menuImage"
+        android:icon="@drawable/ic_action_image"
+        android:title="Save"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/menuGallery"
+
+                android:title="From Gallery"></item>
+            <item
+                android:id="@+id/menuCamera"
+
+                android:title="From Camera"></item>
+        </menu>
+    </item>
+
+    <item
+
+        android:id="@+id/menuSave"
+        android:icon="@drawable/ic_action_save"
+        android:title="Save"
+        app:showAsAction="ifRoom">
+
+    </item>
+</menu>

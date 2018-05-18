@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+
+        android:id="@+id/updatemenuLock"
+        android:icon="@drawable/ic_action_lock"
+        android:title="Lock This Note"
+        app:showAsAction="always">
+<menu>
+    <item
+        android:id="@+id/updatemenuDefaultLock"
+        android:icon="@drawable/locks"
+        android:title="Use Default Password"
+
+
+    ></item>
+
+    <item
+        android:id="@+id/updatemenuPersonalLock"
+        android:icon="@drawable/locks"
+        android:title="Use Personal Password"
+
+
+        ></item>
+
+
+</menu>
+    </item>
+
+    <item
+
+        android:id="@+id/updatemenuImage"
+
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_image"
+        android:title="Get Image From...">
+
+        <menu>
+            <item
+                android:id="@+id/updatemenuGallery"
+
+                android:title="From Gallery"></item>
+            <item
+                android:id="@+id/updatemenuCamera"
+
+                android:title="From Camera"></item>
+        </menu>
+    </item>
+    <item
+
+        android:id="@+id/updatemenuSave"
+        android:icon="@drawable/ic_action_save"
+        android:title="Save"
+        app:showAsAction="always"></item>
+
+    <item
+
+        android:id="@+id/updatemenuDelete"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="Cancel Update"
+        app:showAsAction="always" ></item>
+
+
+</menu>

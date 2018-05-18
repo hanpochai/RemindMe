@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/menuLocked"
+        android:icon="@drawable/folderlocked"
+        android:title="Save"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+
+        android:id="@+id/menuSetting"
+        android:icon="@drawable/sett"
+        android:title="Settings"
+        app:showAsAction="always">
+        <menu
+            >
+<item
+
+    android:id="@+id/setPass"
+    android:icon="@drawable/sett"
+    android:title="Set Default Password"
+    app:showAsAction="always">
+
+
+</item>
+
+
+        </menu>
+
+    </item>
+</menu>
